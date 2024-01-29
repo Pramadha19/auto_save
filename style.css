@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top, rgb(150, 99, 4),rgb(161, 161, 3), rgb(175, 4, 4));
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    padding: 1rem;
+    background-color: rgb(144, 228, 245);
+    box-shadow: 0 0 15px 15px #0e0707;
+    border-radius: 1rem;
+}
+
+main textarea{
+    padding: 0.3rem;
+}
